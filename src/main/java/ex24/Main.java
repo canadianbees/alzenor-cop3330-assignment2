@@ -22,6 +22,7 @@ public class Main
 
         Word words = new Word(word1,word2);
 
+        //if input is an anagram, print the result
          if(words.isAnagram())
          {
              System.out.print("\""+words.getWord1()+"\""+" and "+"\""+words.getWord2()+"\" are anagrams.");
